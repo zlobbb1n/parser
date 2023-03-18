@@ -1,0 +1,37 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreySoft/puppeteer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FreySoft/puppeteer/issues"
+  },
+  "homepage": "https://github.com/FreySoft/puppeteer#readme",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-healthcheck": "^0.1.0",
+    "googleapis": "^111.0.0",
+    "loglevel": "^1.8.1",
+    "openai": "^3.1.0",
+    "puppeteer": "^19.5.0",
+    "puppeteer-cluster": "^0.23.0",
+    "puppeteer-core": "^19.5.0",
+    "ts-node": "^10.9.1"
+  }
+}
